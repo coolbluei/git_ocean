@@ -114,12 +114,4 @@ migration_dependencies:
   required:
     - upgrade_d7_menu
   optional:
-    - upgrade_d7_node_complete_article
-    - upgrade_d7_node_complete_horizontal_landing_page
-    - upgrade_d7_node_complete_multipurpose_page
-    - upgrade_d7_node_complete_page
-    - upgrade_d7_node_complete_super_block
-    - upgrade_d7_node_complete_vertical_landing_page
-    - upgrade_d7_node_complete_webform
-    - upgrade_d7_node_complete_wiki_page
     - upgrade_d7_menu

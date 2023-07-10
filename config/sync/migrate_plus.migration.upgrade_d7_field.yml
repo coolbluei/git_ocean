@@ -47,8 +47,10 @@ process:
           link_field: link_field
         image:
           image: image
-        taxonomy_term_reference:
-          taxonomy_term_reference: taxonomy_term_reference
+        entityreference:
+          entityreference: entityreference
+        email:
+          email: email
   cardinality:
     -
       plugin: get

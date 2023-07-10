@@ -1,0 +1,21 @@
+uuid: 0cef30fa-59bd-4956-8ff2-1cd45ca8189c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node_person_bio
+label: 'Content - Person Bio'
+type: 'canonical_entities:node'
+pattern: 'people/[node:title]'
+selection_criteria:
+  -
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: node
+    bundles:
+      person_bio: person_bio
+selection_logic: and
+weight: 0
+relationships: {  }

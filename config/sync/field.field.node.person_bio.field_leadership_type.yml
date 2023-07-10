@@ -1,0 +1,21 @@
+uuid: 03051d50-7603-490f-ac9b-aa1279bd8bc0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_leadership_type
+    - node.type.person_bio
+  module:
+    - options
+id: node.person_bio.field_leadership_type
+field_name: field_leadership_type
+entity_type: node
+bundle: person_bio
+label: 'Leadership Type'
+description: 'Choose if Leadership was chosen as the Bio Type.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

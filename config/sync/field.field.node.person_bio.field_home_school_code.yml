@@ -1,0 +1,19 @@
+uuid: 29a97606-c14a-4d64-96d6-a17f44bb8019
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_home_school_code
+    - node.type.person_bio
+id: node.person_bio.field_home_school_code
+field_name: field_home_school_code
+entity_type: node
+bundle: person_bio
+label: 'Home School Code'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

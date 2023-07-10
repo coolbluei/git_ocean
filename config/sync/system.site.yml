@@ -2,11 +2,11 @@ _core:
   default_config_hash: l58O_yEXSo-SeJi19LXdzTU1tNJG3lmnIhCitRkM1tk
 langcode: en
 uuid: 32aa2309-b019-4a87-9a74-0cfce59a2ab9
-name: 'EBB | Georgia Institute of Technology | Atlanta, GA'
-mail: it@ebb.gatech.edu
-slogan: 'Engineered Biosystems Building - Shared Core Services'
+name: 'Ocean Science & Engineering | Georgia Institute of Technology | Atlanta, GA'
+mail: webteam@trimosolutions.com
+slogan: ''
 page:
-  403: /node/3
+  403: /node/4
   404: /node/4
   front: /node/1
 admin_compact_mode: false

@@ -1,0 +1,19 @@
+uuid: 0258f021-1d7d-44c1-81ed-9b9ab54df806
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ose_research_faculty
+    - node.type.ose_research_ideas
+id: node.ose_research_ideas.field_ose_research_faculty
+field_name: field_ose_research_faculty
+entity_type: node
+bundle: ose_research_ideas
+label: Faculty
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

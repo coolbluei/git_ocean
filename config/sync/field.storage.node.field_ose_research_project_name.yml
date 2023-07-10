@@ -1,0 +1,21 @@
+uuid: 8e93243f-5235-41d7-8845-60a5099dc6f7
+langcode: und
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_ose_research_project_name
+field_name: field_ose_research_project_name
+entity_type: node
+type: string
+settings:
+  max_length: 400
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,19 @@
+uuid: 531af003-b2fc-4d9c-9022-24f97e0c0fcc
+langcode: und
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_gtct_crsl_slides
+field_name: field_gtct_crsl_slides
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

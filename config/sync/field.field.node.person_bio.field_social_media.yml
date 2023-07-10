@@ -1,0 +1,23 @@
+uuid: d8c12968-884b-4cf6-a072-6ce3a737ca14
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_social_media
+    - node.type.person_bio
+  module:
+    - link
+id: node.person_bio.field_social_media
+field_name: field_social_media
+entity_type: node
+bundle: person_bio
+label: 'Social Media'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 2
+  link_type: 17
+field_type: link

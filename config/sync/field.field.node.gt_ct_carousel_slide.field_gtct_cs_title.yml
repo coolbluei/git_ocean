@@ -1,0 +1,19 @@
+uuid: f933fa4e-fe03-4dde-b78e-40ce6aa7ed56
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_gtct_cs_title
+    - node.type.gt_ct_carousel_slide
+id: node.gt_ct_carousel_slide.field_gtct_cs_title
+field_name: field_gtct_cs_title
+entity_type: node
+bundle: gt_ct_carousel_slide
+label: 'Slide Title'
+description: 'Provide a title for the slide. If you provide a link, this title will appear in the Title Box, otherwise it will be used to describe the main background image for SEO/accessibility purposes.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

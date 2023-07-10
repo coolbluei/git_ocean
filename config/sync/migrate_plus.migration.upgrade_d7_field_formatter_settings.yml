@@ -104,13 +104,19 @@ process:
           link_short: link
           link_label: link
           link_separate: link_separate
-        taxonomy_term_reference:
-          taxonomy_term_reference_link: entity_reference_label
-          taxonomy_term_reference_plain: entity_reference_label
-          taxonomy_term_reference_rss_category: entity_reference_label
-          i18n_taxonomy_term_reference_link: entity_reference_label
-          i18n_taxonomy_term_reference_plain: entity_reference_label
+        entityreference:
+          entityreference_label: entity_reference_label
+          entityreference_entity_id: entity_reference_entity_id
           entityreference_entity_view: entity_reference_entity_view
+        email:
+          email_formatter_default: email_mailto
+          email_formatter_contact: basic_string
+          email_formatter_plain: basic_string
+          email_formatter_spamspan: basic_string
+          email_default: email_mailto
+          email_contact: basic_string
+          email_plain: basic_string
+          email_spamspan: basic_string
     -
       plugin: d7_field_type_defaults
     -

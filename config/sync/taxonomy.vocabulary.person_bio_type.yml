@@ -1,0 +1,8 @@
+uuid: 5c83e0e2-fcb8-46b8-87ab-5e0e5bb8c840
+langcode: en
+status: true
+dependencies: {  }
+name: 'Person Bio Type'
+vid: person_bio_type
+description: ''
+weight: 0

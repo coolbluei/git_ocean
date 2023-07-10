@@ -1,0 +1,11 @@
+uuid: a45c0c8f-5a63-49e1-a904-46ac99530e8e
+langcode: en
+status: true
+dependencies: {  }
+name: FAQ
+type: faq
+description: 'A frequently asked question and its answer.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

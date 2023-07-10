@@ -14,3 +14,5 @@ permissions:
   - 'access content'
   - 'diff view changes'
   - 'search content'
+  - 'view faq page'
+  - 'view files'

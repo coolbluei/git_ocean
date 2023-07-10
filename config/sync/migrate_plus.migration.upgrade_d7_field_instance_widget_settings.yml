@@ -85,7 +85,7 @@ process:
         list: list_default
         image: image_default
         image_miw: image_image
-        taxonomy_term_reference: taxonomy_term_reference_default
+        entityreference: entityreference_default
   options/settings:
     -
       plugin: field_instance_widget_settings

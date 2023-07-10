@@ -1,0 +1,15 @@
+uuid: 523e660f-340f-413e-adf0-567bd4263a2c
+langcode: en
+status: true
+dependencies: {  }
+name: person_bio
+label: 'Person Bio'
+effects:
+  a1a52d79-e2d6-4b95-b273-554114cd8ec1:
+    uuid: a1a52d79-e2d6-4b95-b273-554114cd8ec1
+    id: image_scale
+    weight: 1
+    data:
+      width: 150
+      height: 200
+      upscale: false

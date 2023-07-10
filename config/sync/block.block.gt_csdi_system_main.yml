@@ -1,16 +1,14 @@
-uuid: 3fcf1b17-c2d6-40c2-b670-4155658d404a
+uuid: c0389fdd-7e9b-49bb-be35-f85d80a5748b
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
   theme:
-    - gt
-_core:
-  default_config_hash: fEXmvhXSHFjanAL1m4kgAmvFRH43L4LYPcrt5DvpoPE
-id: gt_system_main
-theme: gt
-region: content
+    - gt_csdi
+id: gt_csdi_system_main
+theme: gt_csdi
+region: ''
 weight: 0
 provider: null
 plugin: system_main_block

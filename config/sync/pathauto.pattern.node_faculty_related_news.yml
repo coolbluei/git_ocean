@@ -1,0 +1,21 @@
+uuid: 0c57f98e-ef80-4db8-b770-0c2febe5291e
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node_faculty_related_news
+label: 'Content - Faculty Related News'
+type: 'canonical_entities:node'
+pattern: 'faculty-news/[node:title]'
+selection_criteria:
+  -
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: node
+    bundles:
+      faculty_related_news: faculty_related_news
+selection_logic: and
+weight: 0
+relationships: {  }
